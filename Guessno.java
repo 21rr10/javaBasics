@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Guessno {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = (int) (Math.random() * 100);
         int guess = 0, attempt = 0;
